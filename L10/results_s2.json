@@ -1,0 +1,232 @@
+[
+  {
+    "strategy": "random",
+    "seed": 2,
+    "rounds": [
+      {
+        "round": 2,
+        "scaled_up": [
+          "Cc1nc(-c2n[nH]cc2-c2cnc3[nH]ccc3c2NC2CCN(Cc3cccc(C#N)c3)CC2)cn1C",
+          "N#Cc1cccc(CN2CCC(N(C(=O)CCc3ccccc3)c3c(-c4cn[nH]c4)cnc4[nH]ccc34)CC2)c1",
+          "N#Cc1cccc(CN2CCC(Nc3c(-c4cn[nH]c4)cnc4[nH]ccc34)CC2)c1",
+          "COc1cccc(CN(c2c(-c3cn[nH]c3)cnc3[nH]ccc23)C2CCN(Cc3cccc(C#N)c3)CC2)c1"
+        ],
+        "capacities": [
+          160,
+          19,
+          296,
+          35
+        ],
+        "wells": 91,
+        "best_true_so_far": -3.8070033333333306,
+        "mean_true_this_round": -1.8535301648351605,
+        "hits_this_round": 0,
+        "new_scaffolds": 29,
+        "unique_reagents": 43
+      },
+      {
+        "round": 3,
+        "scaled_up": [
+          "N#Cc1cccc(CN2CCC(Nc3c(-c4cn[nH]c4)c(-c4ccncc4)nc4[nH]ccc34)CC2)c1",
+          "N#Cc1ccc(CN(c2c(-c3cn[nH]c3)cnc3[nH]ccc23)C2CCN(Cc3cccc(C#N)c3)CC2)cc1",
+          "COc1cccc(CN(c2c(-c3cn[nH]c3)c(-c3ccnn3C)nc3[nH]ccc23)C2CCN(Cc3cccc(C#N)c3)CC2)c1",
+          "N#Cc1cc(CCF)cc(CN2CCC(N(C(=O)CCc3ccccc3)c3c(-c4cn[nH]c4)cnc4[nH]ccc34)CC2)c1"
+        ],
+        "capacities": [
+          113,
+          59,
+          2,
+          0
+        ],
+        "wells": 50,
+        "best_true_so_far": -3.8070033333333306,
+        "mean_true_this_round": -1.6888238999999956,
+        "hits_this_round": 0,
+        "new_scaffolds": 22,
+        "unique_reagents": 29
+      },
+      {
+        "round": 4,
+        "scaled_up": [
+          "CC(=O)c1ccc(N(c2c(-c3cn[nH]c3)cnc3[nH]ccc23)C2CCN(Cc3cccc(C#N)c3)CC2)cc1",
+          "NCc1cccc(CN2CCC(Nc3c(-c4cn[nH]c4)c(-c4ccncc4)nc4[nH]ccc34)CC2)c1",
+          "N#Cc1cccc(CN2CCC(N(c3c(-c4cn[nH]c4)cnc4[nH]ccc34)S(=O)(=O)c3cccc(F)c3)CC2)c1",
+          "CC(=O)c1c[nH]c2ncc(-c3cn[nH]c3)c(N(C(=O)CCc3ccccc3)C3CCN(Cc4cccc(C#N)c4)CC3)c12"
+        ],
+        "capacities": [
+          21,
+          176,
+          21,
+          3
+        ],
+        "wells": 69,
+        "best_true_so_far": -3.8070033333333306,
+        "mean_true_this_round": -1.7837085024154544,
+        "hits_this_round": 0,
+        "new_scaffolds": 18,
+        "unique_reagents": 33
+      },
+      {
+        "round": 5,
+        "scaled_up": [
+          "N#CCCc1[nH]ncc1-c1cnc2[nH]ccc2c1N(C(=O)CCc1ccccc1)C1CCN(Cc2cccc(C#N)c2)CC1",
+          "Cc1nc(-c2n[nH]cc2-c2c(CCC#N)nc3[nH]ccc3c2NC2CCN(Cc3cccc(C#N)c3)CC2)cn1C",
+          "COC(=O)Cc1[nH]ncc1-c1cnc2[nH]ccc2c1N(c1ccc(C(C)=O)cc1)C1CCN(Cc2cccc(C#N)c2)CC1",
+          "CN(c1c(-c2cn[nH]c2)cnc2[nH]ccc12)C1CCN(Cc2cccc(C#N)c2)CC1"
+        ],
+        "capacities": [
+          0,
+          25,
+          2,
+          272
+        ],
+        "wells": 50,
+        "best_true_so_far": -3.8070033333333306,
+        "mean_true_this_round": -2.0689236666666617,
+        "hits_this_round": 0,
+        "new_scaffolds": 9,
+        "unique_reagents": 31
+      }
+    ],
+    "made": 356,
+    "best_true": -3.8070033333333306,
+    "best_true_smiles": "N#Cc1cccc(CN2CCC(Nc3c(-c4c[nH]nc4-c4nc[nH]n4)cnc4[nH]ccc34)CC2)c1",
+    "top10_mean_true": -3.245392166666664,
+    "hit_count": 0,
+    "mean_capacity_chosen": 75.25,
+    "unique_scaffolds": 125,
+    "mean_reagents_per_round": 34.0,
+    "best_pact": 7.493283333333332,
+    "best_clogp": 3.6862800000000018,
+    "top10_mean_pact": 7.182664166666666,
+    "top10_mean_clogp": 3.9372720000000023,
+    "top10_mean_hac": 36.5,
+    "domain": {
+      "n": 357,
+      "mean_nn_tanimoto": 0.565329009675118,
+      "median_nn_tanimoto": 0.5348837209302325,
+      "frac_in_domain": 0.9915966386554622,
+      "mean_tree_sd": 1.1526743983154148,
+      "max_tree_sd": 1.392551797815794
+    },
+    "objective": "lle",
+    "surrogate": "extratrees",
+    "arm_surrogate": "rf",
+    "secs": 142.6
+  },
+  {
+    "strategy": "greedy",
+    "seed": 2,
+    "rounds": [
+      {
+        "round": 2,
+        "scaled_up": [
+          "N#Cc1cccc(CN2CCC(Nc3c(-c4c[nH]nc4-c4nc[nH]n4)cnc4[nH]ccc34)CC2)c1",
+          "COC(=O)Cc1c(C#N)cccc1CN1CCC(Nc2c(-c3cn[nH]c3)cnc3[nH]ccc23)CC1",
+          "N#Cc1cccc(CN2CCC(Nc3c(-c4cn[nH]c4)c(-c4nc[nH]n4)nc4[nH]ccc34)CC2)c1",
+          "NCc1cccc(CN2CCC(Nc3c(-c4cn[nH]c4)cnc4[nH]ccc34)CC2)c1"
+        ],
+        "capacities": [
+          265,
+          396,
+          264,
+          539
+        ],
+        "wells": 96,
+        "best_true_so_far": -4.836563333333333,
+        "mean_true_this_round": -2.255387256944441,
+        "hits_this_round": 0,
+        "new_scaffolds": 44,
+        "unique_reagents": 81
+      },
+      {
+        "round": 3,
+        "scaled_up": [
+          "COC(=O)Cc1c(C#N)cccc1CN1CCC(N(C(=O)CO)c2c(-c3cn[nH]c3)cnc3[nH]ccc23)CC1",
+          "COC(=O)Cc1c(C#N)cccc1CN1CCC(N(c2c(-c3cn[nH]c3)cnc3[nH]ccc23)S(C)(=O)=O)CC1",
+          "N#Cc1cccc(CN2CCC(Nc3c(-c4c[nH]nc4-c4nc[nH]n4)cnc4[nH]ccc34)CC2)c1",
+          "COC(=O)Cc1c(C#N)cccc1CN1CCC(N(c2nc[nH]n2)c2c(-c3cn[nH]c3)cnc3[nH]ccc23)CC1"
+        ],
+        "capacities": [
+          22,
+          16,
+          241,
+          19
+        ],
+        "wells": 81,
+        "best_true_so_far": -4.836563333333333,
+        "mean_true_this_round": -3.345762798353907,
+        "hits_this_round": 0,
+        "new_scaffolds": 18,
+        "unique_reagents": 24
+      },
+      {
+        "round": 4,
+        "scaled_up": [
+          "COC(=O)Cc1c(C#N)cccc1CN1CCC(N(C(=O)CO)c2c(-c3cn[nH]c3)cnc3[nH]ccc23)CC1",
+          "COC(=O)Cc1cc(C#N)cc(CN2CCC(N(C(=O)CO)c3c(-c4cn[nH]c4)cnc4[nH]ccc34)CC2)c1",
+          "COC(=O)Cc1c(C#N)cc(CCF)cc1CN1CCC(N(C(=O)CO)c2c(-c3cn[nH]c3)cnc3[nH]ccc23)CC1",
+          "COC(=O)Cc1c(C#N)cccc1CN1CCC(N(c2c(-c3cn[nH]c3)cnc3[nH]ccc23)S(C)(=O)=O)CC1"
+        ],
+        "capacities": [
+          0,
+          19,
+          2,
+          0
+        ],
+        "wells": 21,
+        "best_true_so_far": -4.836563333333333,
+        "mean_true_this_round": -3.9952004761904747,
+        "hits_this_round": 0,
+        "new_scaffolds": 1,
+        "unique_reagents": 6
+      },
+      {
+        "round": 5,
+        "scaled_up": [
+          "COC(=O)Cc1c(C#N)cccc1CN1CCC(N(C(=O)CO)c2c(-c3cn[nH]c3)cnc3[nH]ccc23)CC1",
+          "COC(=O)Cc1cc(C#N)cc(CN2CCC(N(C(=O)CO)c3c(-c4cn[nH]c4)cnc4[nH]ccc34)CC2)c1",
+          "COC(=O)Cc1c(C#N)cc(CCF)cc1CN1CCC(N(C(=O)CO)c2c(-c3cn[nH]c3)cnc3[nH]ccc23)CC1",
+          "COC(=O)Cc1c(C#N)cccc1CN1CCC(N(c2c(-c3cn[nH]c3)cnc3[nH]ccc23)S(C)(=O)=O)CC1"
+        ],
+        "capacities": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "wells": 0,
+        "best_true_so_far": -4.836563333333333,
+        "mean_true_this_round": 0.0,
+        "hits_this_round": 0,
+        "new_scaffolds": 0,
+        "unique_reagents": 0
+      }
+    ],
+    "made": 294,
+    "best_true": -4.836563333333333,
+    "best_true_smiles": "COC(=O)Cc1c(C#N)cccc1CN1CCC(N(C(=O)CO)c2c(-c3cn[nH]c3)cnc3[nH]ccc23)CC1",
+    "top10_mean_true": -4.5360055,
+    "hit_count": 0,
+    "mean_capacity_chosen": 111.4375,
+    "unique_scaffolds": 110,
+    "mean_reagents_per_round": 27.75,
+    "best_pact": 7.366643333333333,
+    "best_clogp": 2.53008,
+    "top10_mean_pact": 7.3552255,
+    "top10_mean_clogp": 2.8192200000000005,
+    "top10_mean_hac": 40.0,
+    "domain": {
+      "n": 555,
+      "mean_nn_tanimoto": 0.5379895300968343,
+      "median_nn_tanimoto": 0.5168539325842697,
+      "frac_in_domain": 0.9333333333333333,
+      "mean_tree_sd": 1.1424856345126504,
+      "max_tree_sd": 1.392551797815794
+    },
+    "objective": "lle",
+    "surrogate": "extratrees",
+    "arm_surrogate": "rf",
+    "secs": 89.3
+  }
+]
