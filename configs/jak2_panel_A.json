@@ -1,0 +1,95 @@
+{
+  "name": "jak2_panel_A_pIC50_5.99",
+  "seed_smiles": "CC1(O)CN(C(=O)c2cnn3ccc(N4CCC[C@@H]4c4cncc(F)c4)nc23)C1",
+  "target": {
+    "name": "Tyrosine-protein kinase JAK2 (CHEMBL2971)",
+    "pdb_id": "",
+    "receptor_pdb": "",
+    "receptor_pdbqt": "",
+    "reference_ligand_resname": "",
+    "reference_ligand_chain": "",
+    "chains": [],
+    "box_padding": 0.0,
+    "notes": "JAK2 seed panel, arm A. Seed is a real measured JAK2 inhibitor from the oracle's training set: pIC50 5.99, 29 heavy atoms. Chosen from a 17-candidate census of the reachable space. Reachable depth-1+2 space ~95,760 molecules, so a ~400-compound campaign covers 0.4% -- the arms are not competing for an exhausted pool. Oracle ceiling over that space: max 7.50, p99 7.38, i.e. headroom +1.39 log units above the seed. Median NN Tanimoto to training 0.54 with 100% inside the domain (NN>=0.45), where the audit measures RMSE ~0.73 and rho ~0.77. Readout is data/oracles/jak2_extratrees.joblib (held-out scaffold R2 0.608+-0.021, RMSE 0.678, rho 0.784, noise ceiling 0.930). No receptor, no docking; growth-vector and pose terms are inert by design.",
+    "box_center": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "box_size": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "library_csv": "",
+  "library_subset": 0,
+  "beam_width": 1,
+  "dock_top_k": 12,
+  "electronics_backend": "rdkit",
+  "reference_series_csv": "",
+  "aizynth_config": "",
+  "output_dir": "runs",
+  "random_seed": 42,
+  "vina": {
+    "exhaustiveness": 8,
+    "n_poses": 5,
+    "seed": 42,
+    "cpu": 2,
+    "replicates": 2,
+    "local_only_refine": true,
+    "scoring_function": "vina",
+    "global_check_every": 5
+  },
+  "generator": {
+    "max_reagents_per_role": 40,
+    "max_candidates": 60,
+    "max_variants": 4,
+    "snar_threshold": 0.8,
+    "atoms_per_angstrom": 2.0,
+    "enable_backtracking": true,
+    "swap_beyond_series": false,
+    "enforce_growth_constraint": true,
+    "templates_allowed": [],
+    "templates_blocked": [
+      "friedel_crafts_alkylation"
+    ]
+  },
+  "stopping": {
+    "max_iterations": 15,
+    "patience": 4,
+    "n_sigma": 2.0,
+    "min_improvement": 0.15,
+    "target_score": null,
+    "max_docking_calls": 4000,
+    "min_moves": 1
+  },
+  "window": {
+    "mw_max": 600.0,
+    "mw_min": 250.0,
+    "clogp_max": 6.0,
+    "clogp_min": -1.0,
+    "tpsa_max": 160.0,
+    "hbd_max": 4,
+    "hba_max": 11,
+    "rotatable_max": 10,
+    "heavy_atoms_max": 45,
+    "formal_charge_abs_max": 1,
+    "max_alerts": 0,
+    "stereocentres_max": 1
+  },
+  "weights": {
+    "affinity": 1.0,
+    "efficiency": 0.35,
+    "qed_bonus": 0.0,
+    "min_group_efficiency": 0.1,
+    "group_efficiency_min_atoms": 3
+  },
+  "vectors": {
+    "depth": 1.0,
+    "openness": 0.6,
+    "buriedness": 0.5,
+    "outside_box_penalty": 2.0,
+    "depth_saturation": 7.0
+  }
+}
